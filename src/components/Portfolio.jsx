@@ -4,13 +4,14 @@ import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import canvasgame from "../assets/portfolio/canvasgame.png"
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: canvasgame,
     },
     {
       id: 2,
@@ -32,6 +33,9 @@ const Portfolio = () => {
       id: 6,
       src: reactWeather,
     },
+    
+
+
   ];
 
   return (
@@ -47,7 +51,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
