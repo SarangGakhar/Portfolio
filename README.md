@@ -30,7 +30,7 @@ npm run preview
 2. Push this folder to the repository root.
 3. In GitHub, open `Settings` > `Pages`.
 4. Under `Build and deployment`, choose `GitHub Actions`.
-5. Push to `main`. The workflow in `.github/workflows/deploy.yml` will build the React app and deploy `dist`.
+5. Push to `master` or `main`. The workflow in `.github/workflows/deploy.yml` will build the React app and deploy `dist`.
 6. GitHub will publish the site at `https://<your-username>.github.io/<repository-name>/`.
 
 If the repository is named `<your-username>.github.io`, GitHub publishes it at `https://<your-username>.github.io/`.
