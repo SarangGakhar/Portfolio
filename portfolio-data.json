@@ -1,0 +1,126 @@
+{
+  "name": "Sarang",
+  "email": "gakharsarang1@gmail.com",
+  "role": "Research Engineer",
+  "workingRole": "Software Engineer",
+  "company": "LG Soft India",
+  "location": "Bengaluru, India",
+  "headline": "Software Engineer",
+  "summary": "I am a Research Engineer at LG Soft India working as a software engineer across two LG projects: an embedded automotive systems platform and Cybellum, an LG-owned security application where my work focuses on backend services, APIs, asynchronous workflows, containers, and secure multi-tenant foundations.",
+  "availability": "Open to software engineering, backend, platform, embedded, automotive, and cloud-native roles.",
+  "links": {
+    "github": "https://github.com/SarangGakhar",
+    "leetcode": "https://leetcode.com",
+    "tourz": "https://github.com/SarangGakhar/TourZ",
+    "blogz": "https://github.com/SarangGakhar/BlogZ"
+  },
+  "metrics": [
+    {
+      "value": "2",
+      "label": "LG projects across embedded systems and Cybellum backend engineering"
+    },
+    {
+      "value": "2,000+",
+      "label": "AUTOSAR, STATIC, and CERT compliance findings resolved"
+    },
+    {
+      "value": "9.89",
+      "label": "CGPA in Computer Science and Engineering"
+    },
+    {
+      "value": "1,600+",
+      "label": "LeetCode rating, top 20 percent globally"
+    }
+  ],
+  "lgProjects": [
+    {
+      "name": "Embedded Systems Project",
+      "label": "LG Project 01",
+      "type": "Automotive ECU and OS-layer software",
+      "period": "June 2024 - Present",
+      "stack": ["C++", "Android Binder", "Yocto", "AUTOSAR", "GoogleTest", "Multithreading"],
+      "bullets": [
+        "Designed Android Binder IPC between native C++ services using Bn/Bp classes for low-latency communication across ECU modules.",
+        "Developed OS-layer software using C++, Yocto Build System, and Android Framework for automotive ECU environments.",
+        "Built security modules to block unauthorized packets through IP and VLAN-based access rules.",
+        "Implemented multithreaded native modules with mutex-backed thread safety and GoogleTest coverage."
+      ]
+    },
+    {
+      "name": "Cybellum",
+      "label": "LG Project 02",
+      "type": "LG-owned automotive security application",
+      "period": "Backend engineering workstream",
+      "stack": ["Python", "Flask", "SQLAlchemy", "RabbitMQ", "Docker", "Kubernetes", "Helm", "RBAC"],
+      "bullets": [
+        "Worked on backend technologies for Cybellum, an LG-owned application for automotive product security and SBOM workflows.",
+        "Developed backend services for SBOM management and automated vulnerability analysis using Flask and SQLAlchemy.",
+        "Integrated RabbitMQ for asynchronous task processing across vulnerability scanning and analysis workflows.",
+        "Supported containerized deployments with Docker, Kubernetes, and Helm, and helped shape IAM services with RBAC."
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "key": "embedded",
+      "title": "Embedded Systems",
+      "text": "Automotive ECU software, Android Binder IPC, OS-layer services, Yocto Build System, AUTOSAR quality, CMake, and thread-safe C++ modules."
+    },
+    {
+      "key": "backend",
+      "title": "Backend Engineering",
+      "text": "Flask, Node.js, Express.js, REST APIs, SQLAlchemy, RBAC, IAM, asynchronous processing, and secure service boundaries."
+    },
+    {
+      "key": "cloud",
+      "title": "Cloud Native Delivery",
+      "text": "Docker, Kubernetes, Helm, RabbitMQ, scalable deployments, service orchestration, and production-oriented environments."
+    },
+    {
+      "key": "frontend",
+      "title": "Frontend and Product UI",
+      "text": "React.js, JavaScript, HTML, CSS, data-driven interfaces, responsive layouts, and portfolio-grade interaction design."
+    }
+  ],
+  "skills": ["C++", "Python", "JavaScript", "Java", "SQL", "React.js", "Node.js", "Express.js", "Flask", "REST APIs", "SQLAlchemy", "MongoDB", "PostgreSQL", "Docker", "Kubernetes", "Helm", "RabbitMQ", "Android Binder", "AUTOSAR", "Yocto", "CMake", "Git", "Postman", "Jira"],
+  "personalProjects": [
+    {
+      "name": "TourZ",
+      "type": "MERN marketplace",
+      "description": "Full-stack marketplace for booking and advertising tours, featuring JWT authentication, pagination, dynamic filtering, and commenting.",
+      "stack": ["Node.js", "Express.js", "MongoDB", "React.js"],
+      "linkKey": "tourz"
+    },
+    {
+      "name": "BlogZ",
+      "type": "Microservices platform",
+      "description": "Microservices-based blogging platform with a custom event bus for post creation, comment handling, and modular containerized service deployment.",
+      "stack": ["Node.js", "Express.js", "Docker", "Kubernetes"],
+      "linkKey": "blogz"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Global Rank 127",
+      "detail": "CodeChef Starters 53, 14,000+ participants"
+    },
+    {
+      "title": "Global Rank 451",
+      "detail": "Accio-Wars Contest, 11,000+ participants"
+    },
+    {
+      "title": "Top 20 percent globally",
+      "detail": "LeetCode rating of 1,600+"
+    },
+    {
+      "title": "SWPCT cleared",
+      "detail": "Software Proficiency Certification Test at LG Soft India"
+    }
+  ],
+  "education": {
+    "school": "Chitkara University, Punjab",
+    "degree": "B.E. Computer Science and Engineering",
+    "period": "2020 - 2024",
+    "cgpa": "9.89 / 10"
+  }
+}
